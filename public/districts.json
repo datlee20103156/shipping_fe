@@ -1,0 +1,1404 @@
+{
+  "name": "Tỉnh Đắk Lắk",
+  "code": 66,
+  "division_type": "tỉnh",
+  "codename": "tinh_dak_lak",
+  "phone_code": 262,
+  "districts": [
+    {
+      "name": "Thành phố Buôn Ma Thuột",
+      "code": 643,
+      "division_type": "huyện",
+      "codename": "thanh_pho_buon_ma_thuot",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Phường Tân Lập",
+          "code": 24118,
+          "division_type": "xã",
+          "codename": "phuong_tan_lap",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tân Hòa",
+          "code": 24121,
+          "division_type": "xã",
+          "codename": "phuong_tan_hoa",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tân An",
+          "code": 24124,
+          "division_type": "xã",
+          "codename": "phuong_tan_an",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Thành Nhất",
+          "code": 24130,
+          "division_type": "xã",
+          "codename": "phuong_thanh_nhat",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Thành Công",
+          "code": 24133,
+          "division_type": "xã",
+          "codename": "phuong_thanh_cong",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tân Lợi",
+          "code": 24136,
+          "division_type": "xã",
+          "codename": "phuong_tan_loi",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tân Thành",
+          "code": 24142,
+          "division_type": "xã",
+          "codename": "phuong_tan_thanh",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tân Tiến",
+          "code": 24145,
+          "division_type": "xã",
+          "codename": "phuong_tan_tien",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Tự An",
+          "code": 24148,
+          "division_type": "xã",
+          "codename": "phuong_tu_an",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Ea Tam",
+          "code": 24151,
+          "division_type": "xã",
+          "codename": "phuong_ea_tam",
+          "district_code": 643
+        },
+        {
+          "name": "Phường Khánh Xuân",
+          "code": 24154,
+          "division_type": "xã",
+          "codename": "phuong_khanh_xuan",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Hòa Thuận",
+          "code": 24157,
+          "division_type": "xã",
+          "codename": "xa_hoa_thuan",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Cư ÊBur",
+          "code": 24160,
+          "division_type": "xã",
+          "codename": "xa_cu_ebur",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Ea Tu",
+          "code": 24163,
+          "division_type": "xã",
+          "codename": "xa_ea_tu",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Hòa Thắng",
+          "code": 24166,
+          "division_type": "xã",
+          "codename": "xa_hoa_thang",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Ea Kao",
+          "code": 24169,
+          "division_type": "xã",
+          "codename": "xa_ea_kao",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Hòa Phú",
+          "code": 24172,
+          "division_type": "xã",
+          "codename": "xa_hoa_phu",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Hòa Khánh",
+          "code": 24175,
+          "division_type": "xã",
+          "codename": "xa_hoa_khanh",
+          "district_code": 643
+        },
+        {
+          "name": "Xã Hòa Xuân",
+          "code": 24178,
+          "division_type": "xã",
+          "codename": "xa_hoa_xuan",
+          "district_code": 643
+        }
+      ]
+    },
+    {
+      "name": "Thị xã Buôn Hồ",
+      "code": 644,
+      "division_type": "huyện",
+      "codename": "thi_xa_buon_ho",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Phường An Lạc",
+          "code": 24305,
+          "division_type": "xã",
+          "codename": "phuong_an_lac",
+          "district_code": 644
+        },
+        {
+          "name": "Phường An Bình",
+          "code": 24308,
+          "division_type": "xã",
+          "codename": "phuong_an_binh",
+          "district_code": 644
+        },
+        {
+          "name": "Phường Thiện An",
+          "code": 24311,
+          "division_type": "xã",
+          "codename": "phuong_thien_an",
+          "district_code": 644
+        },
+        {
+          "name": "Phường Đạt Hiếu",
+          "code": 24318,
+          "division_type": "xã",
+          "codename": "phuong_dat_hieu",
+          "district_code": 644
+        },
+        {
+          "name": "Phường Đoàn Kết",
+          "code": 24322,
+          "division_type": "xã",
+          "codename": "phuong_doan_ket",
+          "district_code": 644
+        },
+        {
+          "name": "Xã Ea Drông",
+          "code": 24328,
+          "division_type": "xã",
+          "codename": "xa_ea_drong",
+          "district_code": 644
+        },
+        {
+          "name": "Phường Thống Nhất",
+          "code": 24331,
+          "division_type": "xã",
+          "codename": "phuong_thong_nhat",
+          "district_code": 644
+        },
+        {
+          "name": "Phường Bình Tân",
+          "code": 24332,
+          "division_type": "xã",
+          "codename": "phuong_binh_tan",
+          "district_code": 644
+        },
+        {
+          "name": "Xã Ea Siên",
+          "code": 24334,
+          "division_type": "xã",
+          "codename": "xa_ea_sien",
+          "district_code": 644
+        },
+        {
+          "name": "Xã Bình Thuận",
+          "code": 24337,
+          "division_type": "xã",
+          "codename": "xa_binh_thuan",
+          "district_code": 644
+        },
+        {
+          "name": "Xã Cư Bao",
+          "code": 24340,
+          "division_type": "xã",
+          "codename": "xa_cu_bao",
+          "district_code": 644
+        }
+      ]
+    },
+    {
+      "name": "Huyện Ea H'leo",
+      "code": 645,
+      "division_type": "huyện",
+      "codename": "huyen_ea_hleo",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Ea Drăng",
+          "code": 24181,
+          "division_type": "xã",
+          "codename": "thi_tran_ea_drang",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea H'leo",
+          "code": 24184,
+          "division_type": "xã",
+          "codename": "xa_ea_hleo",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Sol",
+          "code": 24187,
+          "division_type": "xã",
+          "codename": "xa_ea_sol",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Ral",
+          "code": 24190,
+          "division_type": "xã",
+          "codename": "xa_ea_ral",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Wy",
+          "code": 24193,
+          "division_type": "xã",
+          "codename": "xa_ea_wy",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Cư A Mung",
+          "code": 24194,
+          "division_type": "xã",
+          "codename": "xa_cu_a_mung",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Cư Mốt",
+          "code": 24196,
+          "division_type": "xã",
+          "codename": "xa_cu_mot",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Hiao",
+          "code": 24199,
+          "division_type": "xã",
+          "codename": "xa_ea_hiao",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Khal",
+          "code": 24202,
+          "division_type": "xã",
+          "codename": "xa_ea_khal",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Dliê Yang",
+          "code": 24205,
+          "division_type": "xã",
+          "codename": "xa_dlie_yang",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Tir",
+          "code": 24207,
+          "division_type": "xã",
+          "codename": "xa_ea_tir",
+          "district_code": 645
+        },
+        {
+          "name": "Xã Ea Nam",
+          "code": 24208,
+          "division_type": "xã",
+          "codename": "xa_ea_nam",
+          "district_code": 645
+        }
+      ]
+    },
+    {
+      "name": "Huyện Ea Súp",
+      "code": 646,
+      "division_type": "huyện",
+      "codename": "huyen_ea_sup",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Ea Súp",
+          "code": 24211,
+          "division_type": "xã",
+          "codename": "thi_tran_ea_sup",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ia Lốp",
+          "code": 24214,
+          "division_type": "xã",
+          "codename": "xa_ia_lop",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ia JLơi",
+          "code": 24215,
+          "division_type": "xã",
+          "codename": "xa_ia_jloi",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ea Rốk",
+          "code": 24217,
+          "division_type": "xã",
+          "codename": "xa_ea_rok",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ya Tờ Mốt",
+          "code": 24220,
+          "division_type": "xã",
+          "codename": "xa_ya_to_mot",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ia RVê",
+          "code": 24221,
+          "division_type": "xã",
+          "codename": "xa_ia_rve",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ea Lê",
+          "code": 24223,
+          "division_type": "xã",
+          "codename": "xa_ea_le",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Cư KBang",
+          "code": 24226,
+          "division_type": "xã",
+          "codename": "xa_cu_kbang",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Ea Bung",
+          "code": 24229,
+          "division_type": "xã",
+          "codename": "xa_ea_bung",
+          "district_code": 646
+        },
+        {
+          "name": "Xã Cư M'Lan",
+          "code": 24232,
+          "division_type": "xã",
+          "codename": "xa_cu_mlan",
+          "district_code": 646
+        }
+      ]
+    },
+    {
+      "name": "Huyện Buôn Đôn",
+      "code": 647,
+      "division_type": "huyện",
+      "codename": "huyen_buon_don",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Xã Krông Na",
+          "code": 24235,
+          "division_type": "xã",
+          "codename": "xa_krong_na",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Ea Huar",
+          "code": 24238,
+          "division_type": "xã",
+          "codename": "xa_ea_huar",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Ea Wer",
+          "code": 24241,
+          "division_type": "xã",
+          "codename": "xa_ea_wer",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Tân Hoà",
+          "code": 24244,
+          "division_type": "xã",
+          "codename": "xa_tan_hoa",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Cuôr KNia",
+          "code": 24247,
+          "division_type": "xã",
+          "codename": "xa_cuor_knia",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Ea Bar",
+          "code": 24250,
+          "division_type": "xã",
+          "codename": "xa_ea_bar",
+          "district_code": 647
+        },
+        {
+          "name": "Xã Ea Nuôl",
+          "code": 24253,
+          "division_type": "xã",
+          "codename": "xa_ea_nuol",
+          "district_code": 647
+        }
+      ]
+    },
+    {
+      "name": "Huyện Cư M'gar",
+      "code": 648,
+      "division_type": "huyện",
+      "codename": "huyen_cu_mgar",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Ea Pốk",
+          "code": 24256,
+          "division_type": "xã",
+          "codename": "thi_tran_ea_pok",
+          "district_code": 648
+        },
+        {
+          "name": "Thị trấn Quảng Phú",
+          "code": 24259,
+          "division_type": "xã",
+          "codename": "thi_tran_quang_phu",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Quảng Tiến",
+          "code": 24262,
+          "division_type": "xã",
+          "codename": "xa_quang_tien",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea Kuêh",
+          "code": 24264,
+          "division_type": "xã",
+          "codename": "xa_ea_kueh",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea Kiết",
+          "code": 24265,
+          "division_type": "xã",
+          "codename": "xa_ea_kiet",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea Tar",
+          "code": 24268,
+          "division_type": "xã",
+          "codename": "xa_ea_tar",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Cư Dliê M'nông",
+          "code": 24271,
+          "division_type": "xã",
+          "codename": "xa_cu_dlie_mnong",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea H'đinh",
+          "code": 24274,
+          "division_type": "xã",
+          "codename": "xa_ea_hdinh",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea Tul",
+          "code": 24277,
+          "division_type": "xã",
+          "codename": "xa_ea_tul",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea KPam",
+          "code": 24280,
+          "division_type": "xã",
+          "codename": "xa_ea_kpam",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea M'DRóh",
+          "code": 24283,
+          "division_type": "xã",
+          "codename": "xa_ea_mdroh",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Quảng Hiệp",
+          "code": 24286,
+          "division_type": "xã",
+          "codename": "xa_quang_hiep",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Cư M'gar",
+          "code": 24289,
+          "division_type": "xã",
+          "codename": "xa_cu_mgar",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea D'Rơng",
+          "code": 24292,
+          "division_type": "xã",
+          "codename": "xa_ea_drong",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Ea M'nang",
+          "code": 24295,
+          "division_type": "xã",
+          "codename": "xa_ea_mnang",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Cư Suê",
+          "code": 24298,
+          "division_type": "xã",
+          "codename": "xa_cu_sue",
+          "district_code": 648
+        },
+        {
+          "name": "Xã Cuor Đăng",
+          "code": 24301,
+          "division_type": "xã",
+          "codename": "xa_cuor_dang",
+          "district_code": 648
+        }
+      ]
+    },
+    {
+      "name": "Huyện Krông Búk",
+      "code": 649,
+      "division_type": "huyện",
+      "codename": "huyen_krong_buk",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Xã Cư Né",
+          "code": 24307,
+          "division_type": "xã",
+          "codename": "xa_cu_ne",
+          "district_code": 649
+        },
+        {
+          "name": "Xã Chư KBô",
+          "code": 24310,
+          "division_type": "xã",
+          "codename": "xa_chu_kbo",
+          "district_code": 649
+        },
+        {
+          "name": "Xã Cư Pơng",
+          "code": 24313,
+          "division_type": "xã",
+          "codename": "xa_cu_pong",
+          "district_code": 649
+        },
+        {
+          "name": "Xã Ea Sin",
+          "code": 24314,
+          "division_type": "xã",
+          "codename": "xa_ea_sin",
+          "district_code": 649
+        },
+        {
+          "name": "Thị trấn Pơng Drang",
+          "code": 24316,
+          "division_type": "xã",
+          "codename": "thi_tran_pong_drang",
+          "district_code": 649
+        },
+        {
+          "name": "Xã Tân Lập",
+          "code": 24317,
+          "division_type": "xã",
+          "codename": "xa_tan_lap",
+          "district_code": 649
+        },
+        {
+          "name": "Xã Ea Ngai",
+          "code": 24319,
+          "division_type": "xã",
+          "codename": "xa_ea_ngai",
+          "district_code": 649
+        }
+      ]
+    },
+    {
+      "name": "Huyện Krông Năng",
+      "code": 650,
+      "division_type": "huyện",
+      "codename": "huyen_krong_nang",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Krông Năng",
+          "code": 24343,
+          "division_type": "xã",
+          "codename": "thi_tran_krong_nang",
+          "district_code": 650
+        },
+        {
+          "name": "Xã ĐLiê Ya",
+          "code": 24346,
+          "division_type": "xã",
+          "codename": "xa_dlie_ya",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Tóh",
+          "code": 24349,
+          "division_type": "xã",
+          "codename": "xa_ea_toh",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Tam",
+          "code": 24352,
+          "division_type": "xã",
+          "codename": "xa_ea_tam",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Phú Lộc",
+          "code": 24355,
+          "division_type": "xã",
+          "codename": "xa_phu_loc",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Tam Giang",
+          "code": 24358,
+          "division_type": "xã",
+          "codename": "xa_tam_giang",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Puk",
+          "code": 24359,
+          "division_type": "xã",
+          "codename": "xa_ea_puk",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Dăh",
+          "code": 24360,
+          "division_type": "xã",
+          "codename": "xa_ea_dah",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Hồ",
+          "code": 24361,
+          "division_type": "xã",
+          "codename": "xa_ea_ho",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Phú Xuân",
+          "code": 24364,
+          "division_type": "xã",
+          "codename": "xa_phu_xuan",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Cư Klông",
+          "code": 24367,
+          "division_type": "xã",
+          "codename": "xa_cu_klong",
+          "district_code": 650
+        },
+        {
+          "name": "Xã Ea Tân",
+          "code": 24370,
+          "division_type": "xã",
+          "codename": "xa_ea_tan",
+          "district_code": 650
+        }
+      ]
+    },
+    {
+      "name": "Huyện Ea Kar",
+      "code": 651,
+      "division_type": "huyện",
+      "codename": "huyen_ea_kar",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Ea Kar",
+          "code": 24373,
+          "division_type": "xã",
+          "codename": "thi_tran_ea_kar",
+          "district_code": 651
+        },
+        {
+          "name": "Thị trấn Ea Knốp",
+          "code": 24376,
+          "division_type": "xã",
+          "codename": "thi_tran_ea_knop",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Sô",
+          "code": 24379,
+          "division_type": "xã",
+          "codename": "xa_ea_so",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Sar",
+          "code": 24380,
+          "division_type": "xã",
+          "codename": "xa_ea_sar",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Xuân Phú",
+          "code": 24382,
+          "division_type": "xã",
+          "codename": "xa_xuan_phu",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư Huê",
+          "code": 24385,
+          "division_type": "xã",
+          "codename": "xa_cu_hue",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Tih",
+          "code": 24388,
+          "division_type": "xã",
+          "codename": "xa_ea_tih",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Đar",
+          "code": 24391,
+          "division_type": "xã",
+          "codename": "xa_ea_dar",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Kmút",
+          "code": 24394,
+          "division_type": "xã",
+          "codename": "xa_ea_kmut",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư Ni",
+          "code": 24397,
+          "division_type": "xã",
+          "codename": "xa_cu_ni",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Păl",
+          "code": 24400,
+          "division_type": "xã",
+          "codename": "xa_ea_pal",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư Prông",
+          "code": 24401,
+          "division_type": "xã",
+          "codename": "xa_cu_prong",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Ea Ô",
+          "code": 24403,
+          "division_type": "xã",
+          "codename": "xa_ea_o",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư ELang",
+          "code": 24404,
+          "division_type": "xã",
+          "codename": "xa_cu_elang",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư Bông",
+          "code": 24406,
+          "division_type": "xã",
+          "codename": "xa_cu_bong",
+          "district_code": 651
+        },
+        {
+          "name": "Xã Cư Jang",
+          "code": 24409,
+          "division_type": "xã",
+          "codename": "xa_cu_jang",
+          "district_code": 651
+        }
+      ]
+    },
+    {
+      "name": "Huyện M'Đrắk",
+      "code": 652,
+      "division_type": "huyện",
+      "codename": "huyen_mdrak",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn M'Đrắk",
+          "code": 24412,
+          "division_type": "xã",
+          "codename": "thi_tran_mdrak",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Cư Prao",
+          "code": 24415,
+          "division_type": "xã",
+          "codename": "xa_cu_prao",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea Pil",
+          "code": 24418,
+          "division_type": "xã",
+          "codename": "xa_ea_pil",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea Lai",
+          "code": 24421,
+          "division_type": "xã",
+          "codename": "xa_ea_lai",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea H'MLay",
+          "code": 24424,
+          "division_type": "xã",
+          "codename": "xa_ea_hmlay",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Krông Jing",
+          "code": 24427,
+          "division_type": "xã",
+          "codename": "xa_krong_jing",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea M' Doal",
+          "code": 24430,
+          "division_type": "xã",
+          "codename": "xa_ea_m_doal",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea Riêng",
+          "code": 24433,
+          "division_type": "xã",
+          "codename": "xa_ea_rieng",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Cư M'ta",
+          "code": 24436,
+          "division_type": "xã",
+          "codename": "xa_cu_mta",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Cư K Róa",
+          "code": 24439,
+          "division_type": "xã",
+          "codename": "xa_cu_k_roa",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Krông Á",
+          "code": 24442,
+          "division_type": "xã",
+          "codename": "xa_krong_a",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Cư San",
+          "code": 24444,
+          "division_type": "xã",
+          "codename": "xa_cu_san",
+          "district_code": 652
+        },
+        {
+          "name": "Xã Ea Trang",
+          "code": 24445,
+          "division_type": "xã",
+          "codename": "xa_ea_trang",
+          "district_code": 652
+        }
+      ]
+    },
+    {
+      "name": "Huyện Krông Bông",
+      "code": 653,
+      "division_type": "huyện",
+      "codename": "huyen_krong_bong",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Krông Kmar",
+          "code": 24448,
+          "division_type": "xã",
+          "codename": "thi_tran_krong_kmar",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Dang Kang",
+          "code": 24451,
+          "division_type": "xã",
+          "codename": "xa_dang_kang",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Cư KTy",
+          "code": 24454,
+          "division_type": "xã",
+          "codename": "xa_cu_kty",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Hòa Thành",
+          "code": 24457,
+          "division_type": "xã",
+          "codename": "xa_hoa_thanh",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Hòa Phong",
+          "code": 24463,
+          "division_type": "xã",
+          "codename": "xa_hoa_phong",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Hòa Lễ",
+          "code": 24466,
+          "division_type": "xã",
+          "codename": "xa_hoa_le",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Yang Reh",
+          "code": 24469,
+          "division_type": "xã",
+          "codename": "xa_yang_reh",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Ea Trul",
+          "code": 24472,
+          "division_type": "xã",
+          "codename": "xa_ea_trul",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Khuê Ngọc Điền",
+          "code": 24475,
+          "division_type": "xã",
+          "codename": "xa_khue_ngoc_dien",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Cư Pui",
+          "code": 24478,
+          "division_type": "xã",
+          "codename": "xa_cu_pui",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Hòa Sơn",
+          "code": 24481,
+          "division_type": "xã",
+          "codename": "xa_hoa_son",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Cư Drăm",
+          "code": 24484,
+          "division_type": "xã",
+          "codename": "xa_cu_dram",
+          "district_code": 653
+        },
+        {
+          "name": "Xã Yang Mao",
+          "code": 24487,
+          "division_type": "xã",
+          "codename": "xa_yang_mao",
+          "district_code": 653
+        }
+      ]
+    },
+    {
+      "name": "Huyện Krông Pắc",
+      "code": 654,
+      "division_type": "huyện",
+      "codename": "huyen_krong_pac",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Phước An",
+          "code": 24490,
+          "division_type": "xã",
+          "codename": "thi_tran_phuoc_an",
+          "district_code": 654
+        },
+        {
+          "name": "Xã KRông Búk",
+          "code": 24493,
+          "division_type": "xã",
+          "codename": "xa_krong_buk",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Kly",
+          "code": 24496,
+          "division_type": "xã",
+          "codename": "xa_ea_kly",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Kênh",
+          "code": 24499,
+          "division_type": "xã",
+          "codename": "xa_ea_kenh",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Phê",
+          "code": 24502,
+          "division_type": "xã",
+          "codename": "xa_ea_phe",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea KNuec",
+          "code": 24505,
+          "division_type": "xã",
+          "codename": "xa_ea_knuec",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Yông",
+          "code": 24508,
+          "division_type": "xã",
+          "codename": "xa_ea_yong",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Hòa An",
+          "code": 24511,
+          "division_type": "xã",
+          "codename": "xa_hoa_an",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Kuăng",
+          "code": 24514,
+          "division_type": "xã",
+          "codename": "xa_ea_kuang",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Hòa Đông",
+          "code": 24517,
+          "division_type": "xã",
+          "codename": "xa_hoa_dong",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Hiu",
+          "code": 24520,
+          "division_type": "xã",
+          "codename": "xa_ea_hiu",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Hòa Tiến",
+          "code": 24523,
+          "division_type": "xã",
+          "codename": "xa_hoa_tien",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Tân Tiến",
+          "code": 24526,
+          "division_type": "xã",
+          "codename": "xa_tan_tien",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Vụ Bổn",
+          "code": 24529,
+          "division_type": "xã",
+          "codename": "xa_vu_bon",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Uy",
+          "code": 24532,
+          "division_type": "xã",
+          "codename": "xa_ea_uy",
+          "district_code": 654
+        },
+        {
+          "name": "Xã Ea Yiêng",
+          "code": 24535,
+          "division_type": "xã",
+          "codename": "xa_ea_yieng",
+          "district_code": 654
+        }
+      ]
+    },
+    {
+      "name": "Huyện Krông A Na",
+      "code": 655,
+      "division_type": "huyện",
+      "codename": "huyen_krong_a_na",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Buôn Trấp",
+          "code": 24538,
+          "division_type": "xã",
+          "codename": "thi_tran_buon_trap",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Dray Sáp",
+          "code": 24556,
+          "division_type": "xã",
+          "codename": "xa_dray_sap",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Ea Na",
+          "code": 24559,
+          "division_type": "xã",
+          "codename": "xa_ea_na",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Ea Bông",
+          "code": 24565,
+          "division_type": "xã",
+          "codename": "xa_ea_bong",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Băng A Drênh",
+          "code": 24568,
+          "division_type": "xã",
+          "codename": "xa_bang_a_drenh",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Dur KMăl",
+          "code": 24571,
+          "division_type": "xã",
+          "codename": "xa_dur_kmal",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Bình Hòa",
+          "code": 24574,
+          "division_type": "xã",
+          "codename": "xa_binh_hoa",
+          "district_code": 655
+        },
+        {
+          "name": "Xã Quảng Điền",
+          "code": 24577,
+          "division_type": "xã",
+          "codename": "xa_quang_dien",
+          "district_code": 655
+        }
+      ]
+    },
+    {
+      "name": "Huyện Lắk",
+      "code": 656,
+      "division_type": "huyện",
+      "codename": "huyen_lak",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Thị trấn Liên Sơn",
+          "code": 24580,
+          "division_type": "xã",
+          "codename": "thi_tran_lien_son",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Yang Tao",
+          "code": 24583,
+          "division_type": "xã",
+          "codename": "xa_yang_tao",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Bông Krang",
+          "code": 24586,
+          "division_type": "xã",
+          "codename": "xa_bong_krang",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Đắk Liêng",
+          "code": 24589,
+          "division_type": "xã",
+          "codename": "xa_dak_lieng",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Buôn Triết",
+          "code": 24592,
+          "division_type": "xã",
+          "codename": "xa_buon_triet",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Buôn Tría",
+          "code": 24595,
+          "division_type": "xã",
+          "codename": "xa_buon_tria",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Đắk Phơi",
+          "code": 24598,
+          "division_type": "xã",
+          "codename": "xa_dak_phoi",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Đắk Nuê",
+          "code": 24601,
+          "division_type": "xã",
+          "codename": "xa_dak_nue",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Krông Nô",
+          "code": 24604,
+          "division_type": "xã",
+          "codename": "xa_krong_no",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Nam Ka",
+          "code": 24607,
+          "division_type": "xã",
+          "codename": "xa_nam_ka",
+          "district_code": 656
+        },
+        {
+          "name": "Xã Ea R'Bin",
+          "code": 24610,
+          "division_type": "xã",
+          "codename": "xa_ea_rbin",
+          "district_code": 656
+        }
+      ]
+    },
+    {
+      "name": "Huyện Cư Kuin",
+      "code": 657,
+      "division_type": "huyện",
+      "codename": "huyen_cu_kuin",
+      "province_code": 66,
+      "wards": [
+        {
+          "name": "Xã Ea Ning",
+          "code": 24540,
+          "division_type": "xã",
+          "codename": "xa_ea_ning",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Cư Ê Wi",
+          "code": 24541,
+          "division_type": "xã",
+          "codename": "xa_cu_e_wi",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Ea Ktur",
+          "code": 24544,
+          "division_type": "xã",
+          "codename": "xa_ea_ktur",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Ea Tiêu",
+          "code": 24547,
+          "division_type": "xã",
+          "codename": "xa_ea_tieu",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Ea BHốk",
+          "code": 24550,
+          "division_type": "xã",
+          "codename": "xa_ea_bhok",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Ea Hu",
+          "code": 24553,
+          "division_type": "xã",
+          "codename": "xa_ea_hu",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Dray Bhăng",
+          "code": 24561,
+          "division_type": "xã",
+          "codename": "xa_dray_bhang",
+          "district_code": 657
+        },
+        {
+          "name": "Xã Hòa Hiệp",
+          "code": 24562,
+          "division_type": "xã",
+          "codename": "xa_hoa_hiep",
+          "district_code": 657
+        }
+      ]
+    }
+  ]
+}
