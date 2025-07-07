@@ -1,0 +1,11 @@
+export const FILE_UPLOAD_AVATAR_USER = './public/uploads/avatar';
+export const FILE_UPLOAD_CATEGORY_ITEM = './public/uploads/category_item';
+export const FILE_UPLOAD_SHOP= './public/uploads/shop'
+export const FILE_UPLOAD_AVATAR= './public/uploads/shop/avatar'
+export const FILE_UPLOAD_BACKGROUND= './public/uploads/shop/background'
+export const FILE_UPLOAD_CATEGORY = './public/uploads/category';
+export const FILE_UPLOAD_TOPPING = './public/uploads/topping';
+export const FILE_UPLOAD_PRODUCT = './public/uploads/product';
+export const FILE_UPLOAD_DOCS = './public/uploads/shop/docs';
+export const SUPPORTED_IMAGE_FORMATS = ['.png', '.jpg', '.jpeg'];
+export const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
