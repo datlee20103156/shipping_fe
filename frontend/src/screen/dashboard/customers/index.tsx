@@ -266,13 +266,6 @@ export default function CustomersPage() {
                         >
                           <Edit size={18} />
                         </button>
-                        <button
-                          // onClick={() => handleDeleteCustomer(customer.id)}
-                          className="text-red-600 hover:text-red-900 p-1 rounded-full hover:bg-red-50 transition-colors"
-                          title="Xóa"
-                        >
-                          <Trash2 size={18} />
-                        </button>
                       </div>
                     </td>
                   </tr>

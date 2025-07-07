@@ -72,7 +72,7 @@ const AdminSidebar = ({ isOpen, onClose, sidebarOpen, setSidebarOpen }: SidebarP
       return menuItems; // Hiện tất cả
     }
     if (roles.includes('SHIPER') || roles.includes('OPERATOR')) {
-      return menuItems.filter(item => item.id === 'orders' || item.id === 'create-order'); // Chỉ quản lý đơn hàng
+      return menuItems.filter(item => item.id === 'orders'); // Chỉ quản lý đơn hàng
     }
     if (roles.includes('USER')) {
       return menuItems.filter(item => item.id === 'create-order'); // Chỉ tạo đơn hàng

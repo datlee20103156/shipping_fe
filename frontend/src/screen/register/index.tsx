@@ -28,6 +28,11 @@ export default function RegisterPage() {
     const [forgotPasswordSuccess, setForgotPasswordSuccess] = useState(false);
     const [forgotPasswordLoading, setForgotPasswordLoading] = useState(false);
     const [isDialogClosing, setIsDialogClosing] = useState(false);
+    const handleChange = (e: any) => {
+        let value = e.target.value.replace(/\D/g, ''); // chỉ cho số
+        if (value.length > 10) value = value.slice(0, 10); // giới hạn 10 số
+        setPhone(value);
+    };
     const handleClickShowPassword = useCallback(() => {
         setShowPassword(prev => !prev);
     }, []);
@@ -41,16 +46,14 @@ export default function RegisterPage() {
         setError("");
 
         const formData = new FormData(e.target as HTMLFormElement);
-        const phone = formData.get('phone') as string;
+        const phone = formData.get('phone');
         const password = formData.get('password') as string;
 
         try {
-            const response = await api.post('/auth/login', { phone, password });
+            const response = await api.post('users/createUser', { phone, password, role: 'USER', fullname: 'Người dùng' });
             if (response.status === 200) {
-                saveUserInfo(response.data.user);
-                localStorage.setItem('token', response.data.token);
-                saveIsLogin(true);
-                navigate('/');
+                alert('Đăng ký tài khoản thành công!');
+                navigate('/login');
             } else {
                 setError('Vui lòng kiểm tra lại số điện thoại hoặc mật khẩu.');
             }
@@ -86,12 +89,15 @@ export default function RegisterPage() {
                             />
                         </div>
                         <div>
-                            <label className="block text-sm text-gray-700 mb-1">Tài khoản</label>
+                            <label className="block text-sm text-gray-700 mb-1">Số điện thoại</label>
                             <input
                                 name="phone"
-                                type="text"
-                                placeholder="Nhập tài khoản"
+                                type="tel"
+                                placeholder="Nhập số điện thoại"
+                                inputMode="numeric"
                                 className="w-full px-4 py-2 border rounded outline-none focus:ring-2 focus:ring-indigo-500"
+                                value={phone}
+                                onChange={handleChange}
                             />
                         </div>
 
