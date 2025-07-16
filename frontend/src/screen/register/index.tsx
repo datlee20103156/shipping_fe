@@ -18,16 +18,10 @@ export default function RegisterPage() {
     const [showPassword, setShowPassword] = useState(false);
     const [showRePassword, setShowRePassword] = useState(false);
     const [phone, setPhone] = useState("");
-    const [email, setEmail] = useState("");
     const [error, setError] = useState("");
-    const [errorPhone, setErrorPhone] = useState("");
-    const [errorEmail, setErrorEmail] = useState("");
-    const [isLoading, setIsLoading] = useState(false);
-    const [showWebKitDialog, setShowWebKitDialog] = useState(false);
-    const [showForgotPassword, setShowForgotPassword] = useState(false);
-    const [forgotPasswordSuccess, setForgotPasswordSuccess] = useState(false);
-    const [forgotPasswordLoading, setForgotPasswordLoading] = useState(false);
-    const [isDialogClosing, setIsDialogClosing] = useState(false);
+    const [password, setPassword] = useState("");
+    const [repassword, setRepassword] = useState("");
+    const isFormValid = password === repassword && password.length > 0 && phone.length === 10;
     const handleChange = (e: any) => {
         let value = e.target.value.replace(/\D/g, ''); // chỉ cho số
         if (value.length > 10) value = value.slice(0, 10); // giới hạn 10 số
@@ -39,18 +33,36 @@ export default function RegisterPage() {
     const handleClickShowRePassword = useCallback(() => {
         setShowRePassword(prev => !prev);
     }, []);
+    const handleChangePassword = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const value = e.target.value;
+        setPassword(value);
+        if (repassword && value !== repassword) {
+            setError('Mật khẩu không khớp');
+        } else {
+            setError('');
+        }
+    };
+    const handleChangeRepassword = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const value = e.target.value;
+        setRepassword(value);
+        if (password && value !== password) {
+            setError('Mật khẩu không khớp!!');
+        } else {
+            setError('');
+        }
+    };
     // Form submission handler
     const handleSubmit = useCallback(async (e: React.FormEvent) => {
         e.preventDefault();
-        setIsLoading(true);
         setError("");
 
         const formData = new FormData(e.target as HTMLFormElement);
         const phone = formData.get('phone');
         const password = formData.get('password') as string;
+        const fullname = formData.get('fullname') as string;
 
         try {
-            const response = await api.post('users/createUser', { phone, password, role: 'USER', fullname: 'Người dùng' });
+            const response = await api.post('users/createUser', { phone, password, role: 'USER', fullname: fullname || 'Người dùng' });
             if (response.status === 200) {
                 alert('Đăng ký tài khoản thành công!');
                 navigate('/login');
@@ -63,8 +75,6 @@ export default function RegisterPage() {
             } else {
                 setError('Có lỗi xảy ra, vui lòng thử lại.');
             }
-        } finally {
-            setIsLoading(false);
         }
     }, [navigate, saveIsLogin, saveUserInfo]);
     return (
@@ -82,10 +92,11 @@ export default function RegisterPage() {
                         <div>
                             <label className="block text-sm text-gray-700 mb-1">Họ và Tên</label>
                             <input
-                                name="name"
+                                name="fullname"
                                 type="text"
                                 placeholder="Nhập họ và tên"
                                 className="w-full px-4 py-2 border rounded outline-none focus:ring-2 focus:ring-indigo-500"
+                                onChange={handleChange}
                             />
                         </div>
                         <div>
@@ -109,6 +120,7 @@ export default function RegisterPage() {
                                     type={showPassword ? "text" : "password"}
                                     name="password"
                                     placeholder="Nhập mật khẩu"
+                                    onChange={handleChangePassword}
                                     className="w-full px-4 py-2 border rounded outline-none pr-10 focus:ring-2 focus:ring-indigo-500"
                                     style={{
                                         transition: 'border-color 0.15s ease, box-shadow 0.15s ease'
@@ -128,7 +140,7 @@ export default function RegisterPage() {
                                     />
                                 </button>
                             </div>
-                            {error && <ErrorMessage message={error} />}
+                            {/* {error && <ErrorMessage message={error} />} */}
                         </div>
                         <div>
                             <label className="block text-sm text-gray-700 mb-1">Nhập lại mật khẩu</label>
@@ -138,6 +150,7 @@ export default function RegisterPage() {
                                     type={showRePassword ? "text" : "password"}
                                     name="repassword"
                                     placeholder="Nhập lại mật khẩu"
+                                    onChange={handleChangeRepassword}
                                     className="w-full px-4 py-2 border rounded outline-none pr-10 focus:ring-2 focus:ring-indigo-500"
                                     style={{
                                         transition: 'border-color 0.15s ease, box-shadow 0.15s ease'
@@ -159,7 +172,14 @@ export default function RegisterPage() {
                             </div>
                             {error && <ErrorMessage message={error} />}
                         </div>
-                        <button type="submit" className="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 my-3 mt-4">
+                        <button
+                            type="submit"
+                            disabled={!isFormValid}
+                            className={`w-full py-2 rounded my-3 mt-4 ${isFormValid
+                                    ? 'bg-indigo-600 text-white hover:bg-indigo-700'
+                                    : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                                }`}
+                        >
                             Đăng ký
                         </button>
                     </form>
